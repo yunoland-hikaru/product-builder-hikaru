@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="株式会社ALIUS - 信用第一・エンジニアファーストを軸に、最新テクノロジーと誠実さで「信用」と「満足」を提供します。" />
+  <title>株式会社ALIUS</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ナビゲーション -->
+  <nav id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo" aria-label="ALIUS ホームへ">
+        <svg width="220" height="50" viewBox="100 10 480 90" role="img" aria-hidden="true">
+          <line x1="232" y1="82" x2="248" y2="34" stroke="currentColor" stroke-width="5" stroke-linecap="square"/>
+          <line x1="264" y1="82" x2="248" y2="34" stroke="currentColor" stroke-width="5" stroke-linecap="square"/>
+          <line x1="241" y1="60" x2="255" y2="60" stroke="#10B981" stroke-width="4" stroke-linecap="square"/>
+          <line x1="280" y1="34" x2="280" y2="82" stroke="currentColor" stroke-width="5" stroke-linecap="square"/>
+          <line x1="280" y1="82" x2="312" y2="82" stroke="currentColor" stroke-width="5" stroke-linecap="square"/>
+          <line x1="330" y1="34" x2="330" y2="82" stroke="currentColor" stroke-width="5" stroke-linecap="square"/>
+          <circle cx="330" cy="58" r="5.5" fill="#10B981"/>
+          <line x1="348" y1="34" x2="348" y2="70" stroke="currentColor" stroke-width="5" stroke-linecap="square"/>
+          <path d="M348,70 Q348,84 364,84 Q380,84 380,70" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="square"/>
+          <line x1="380" y1="70" x2="380" y2="34" stroke="currentColor" stroke-width="5" stroke-linecap="square"/>
+          <path d="M428,44 Q428,34 420,34 L404,34 Q396,34 396,44 Q396,58 404,58 L420,58 Q428,58 428,72 Q428,82 420,82 L404,82 Q396,82 396,72" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="square" stroke-linejoin="round"/>
+        </svg>
+      </a>
+      <button class="nav-hamburger" id="hamburger" aria-label="メニューを開く" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-menu" id="nav-menu" role="list">
+        <li><a href="#home"     class="nav-link">ホーム</a></li>
+        <li><a href="#about"    class="nav-link">会社概要</a></li>
+        <li><a href="#ceo"      class="nav-link">代表挨拶</a></li>
+        <li><a href="#services" class="nav-link">事業内容</a></li>
+        <li><a href="#careers"  class="nav-link">採用情報</a></li>
+        <li><a href="#contact"  class="nav-link">お問い合わせ</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- 1. ヒーローセクション -->
+  <section id="home" class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-content">
+      <p class="hero-eyebrow">ALIUS CORPORATION</p>
+      <h1 class="hero-title">人とAI、<br>共に前へ。</h1>
+      <p class="hero-sub">
+        株式会社ALIUSは信用第一・エンジニアファーストを軸に、<br>
+        最新テクノロジーと誠実さで「信用」と「満足」を提供します。
+      </p>
+      <a href="#contact" class="btn-hero">お問い合わせ</a>
+    </div>
+    <div class="hero-scroll" aria-hidden="true"><span></span></div>
+  </section>
+
+  <!-- 2. 会社概要 -->
+  <section id="about" class="section about">
+    <div class="container">
+      <div class="section-header fade-in">
+        <p class="section-label">ABOUT US</p>
+        <h2 class="section-title">会社概要</h2>
+      </div>
+      <div class="about-grid fade-in">
+        <div class="about-table">
+          <table>
+            <tbody>
+              <tr>
+                <th>会社名</th>
+                <td>株式会社ALIUS</td>
+              </tr>
+              <tr>
+                <th>代表取締役</th>
+                <td>黒埼 輝</td>
+              </tr>
+              <tr>
+                <th>設立</th>
+                <td>2020年2月28日</td>
+              </tr>
+              <tr>
+                <th>本社</th>
+                <td>〒150-0001 東京都渋谷区神宮前6-23-4 桑野ビル2F</td>
+              </tr>
+              <tr>
+                <th>営業所</th>
+                <td>〒373-0063 群馬県太田市鳥山下町718-1</td>
+              </tr>
+              <tr>
+                <th>E-mail</th>
+                <td><a href="mailto:kurosaki@alius.jp">kurosaki@alius.jp</a></td>
+              </tr>
+              <tr>
+                <th>URL</th>
+                <td><a href="http://alius.jp" target="_blank" rel="noopener">http://alius.jp</a></td>
+              </tr>
+              <tr>
+                <th>事業内容</th>
+                <td>
+                  <ul>
+                    <li>コンピュータソフトウェアに関する技術の提供</li>
+                    <li>コンピュータ・ソフトウェアの開発及び運用管理</li>
+                    <li>コンピュータ及びその関連機器の販売</li>
+                    <li>IT人材に関するコンサルティング</li>
+                    <li>前各号に附帯関連する一切の事業</li>
+                  </ul>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="about-image">
+          <img
+            src="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=800&q=80"
+            alt="オフィスイメージ"
+            loading="lazy"
+          />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. 代表挨拶 -->
+  <section id="ceo" class="section ceo">
+    <div class="ceo-inner">
+      <div class="container">
+        <div class="section-header section-header--light fade-in">
+          <p class="section-label">MESSAGE</p>
+          <h2 class="section-title">代表挨拶</h2>
+        </div>
+        <div class="ceo-grid fade-in">
+          <div class="ceo-image">
+            <img
+              src="https://images.unsplash.com/photo-1560179707-f14e90ef3623?auto=format&fit=crop&w=600&q=80"
+              alt="代表取締役オフィスイメージ"
+              loading="lazy"
+            />
+          </div>
+          <div class="ceo-text">
+            <p>私自身、個人事業主として長年にわたり、お客様の多様なニーズに向き合い、「人的」「技術的」両面からサービスを提供してまいりました。</p>
+            <p>この業界に踏み込んだ当初は、生き残るために毎日が必死でした。しかし今では、セキュリティの徹底、サービス品質の向上、リカバリー対策など、より高いパフォーマンスを追求することが私どもの使命となっております。</p>
+            <p>株式会社ALIUSは「コンプライアンスの徹底」と「お客様に最高の満足度を提供する」という経営理念のもと設立いたしました。</p>
+            <p>テクノロジーは今、大きな転換期を迎えています。AIをはじめとする最新技術の波を真正面から受け止め、常に時代の一歩先を見据えたサービスを提供してまいります。システムの力で、皆様一人ひとりのビジネスと未来を前へ進める——その想いを胸に、日々邁進してまいります。</p>
+            <p>今後ともご指導ご鞭撻のほど、何卒宜しくお願い申し上げます。</p>
+            <p class="ceo-signature">株式会社ALIUS 代表取締役　黒埼 輝</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. 事業内容 -->
+  <section id="services" class="section services">
+    <div class="container">
+      <div class="section-header fade-in">
+        <p class="section-label">SERVICES</p>
+        <h2 class="section-title">事業内容</h2>
+      </div>
+      <div class="services-grid">
+        <div class="service-card fade-in">
+          <div class="service-image">
+            <img
+              src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=700&q=80"
+              alt="IT System Development"
+              loading="lazy"
+            />
+          </div>
+          <div class="service-body">
+            <div class="service-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <polyline points="16 18 22 12 16 6"/>
+                <polyline points="8 6 2 12 8 18"/>
+              </svg>
+            </div>
+            <h3 class="service-title">IT System Development</h3>
+            <p class="service-text">SAPを中心としたエンタープライズシステムの開発・運用・保守を行います。経験豊富なエンジニアが、お客様のビジネスに最適なソリューションを提供します。</p>
+          </div>
+        </div>
+        <div class="service-card fade-in">
+          <div class="service-image">
+            <img
+              src="https://images.unsplash.com/photo-1677442135703-1787eea5ce01?auto=format&fit=crop&w=700&q=80"
+              alt="AI Product Builder"
+              loading="lazy"
+            />
+          </div>
+          <div class="service-body">
+            <div class="service-icon service-icon--green">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <circle cx="12" cy="12" r="3"/>
+                <path d="M12 1v4M12 19v4M4.22 4.22l2.83 2.83M16.95 16.95l2.83 2.83M1 12h4M19 12h4M4.22 19.78l2.83-2.83M16.95 7.05l2.83-2.83"/>
+              </svg>
+            </div>
+            <h3 class="service-title">AI Product Builder</h3>
+            <p class="service-text">複数のAIを組み合わせ、業務の自動化・効率化を実現します。「AIを使う」のではなく「AIを統制する仕組み」で、精度と安全性を両立したプロダクト開発を提供します。</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. 採用情報 -->
+  <section id="careers" class="section careers">
+    <div class="container">
+      <div class="section-header fade-in">
+        <p class="section-label">CAREERS</p>
+        <h2 class="section-title">採用情報</h2>
+      </div>
+      <div class="careers-grid">
+        <div class="career-card fade-in">
+          <span class="career-badge career-badge--open">募集中</span>
+          <h3 class="career-title">システム・エンジニア / プログラマー</h3>
+        </div>
+        <div class="career-card fade-in">
+          <span class="career-badge career-badge--open">募集中</span>
+          <h3 class="career-title">AI Product Builder</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. お問い合わせ -->
+  <section id="contact" class="section contact">
+    <div class="container">
+      <div class="section-header fade-in">
+        <p class="section-label">CONTACT</p>
+        <h2 class="section-title">お問い合わせ</h2>
+      </div>
+      <div class="contact-form-outer fade-in">
+        <div class="contact-form-wrap">
+          <form id="contact-form" action="https://formspree.io/f/mpqeryvv" method="POST" novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="last-name">姓 <span class="required" aria-hidden="true">*</span></label>
+                <input type="text" id="last-name" name="last_name" placeholder="山田" required autocomplete="family-name" />
+              </div>
+              <div class="form-group">
+                <label for="first-name">名 <span class="required" aria-hidden="true">*</span></label>
+                <input type="text" id="first-name" name="first_name" placeholder="太郎" required autocomplete="given-name" />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="form-email">メールアドレス <span class="required" aria-hidden="true">*</span></label>
+              <input type="email" id="form-email" name="email" placeholder="example@company.com" required autocomplete="email" />
+            </div>
+            <div class="form-group">
+              <label for="form-message">メッセージ <span class="required" aria-hidden="true">*</span></label>
+              <textarea id="form-message" name="message" placeholder="お問い合わせ内容をご入力ください" rows="5" required></textarea>
+            </div>
+            <p class="form-error" id="form-error" role="alert" aria-live="polite"></p>
+            <button type="submit" class="btn-submit" id="btn-submit">送信する</button>
+          </form>
+          <div class="form-success" id="form-success" role="status">
+            <p>お問い合わせを受け付けました。<br>担当者よりご連絡いたします。</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- フッター -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-logo" aria-hidden="true">
+        <svg width="120" height="26" viewBox="0 0 680 100">
+          <rect x="100" y="10" width="480" height="90" rx="6" fill="#1a1a2e"/>
+          <line x1="232" y1="82" x2="248" y2="34" stroke="white" stroke-width="5" stroke-linecap="square"/>
+          <line x1="264" y1="82" x2="248" y2="34" stroke="white" stroke-width="5" stroke-linecap="square"/>
+          <line x1="241" y1="60" x2="255" y2="60" stroke="#10B981" stroke-width="4" stroke-linecap="square"/>
+          <line x1="280" y1="34" x2="280" y2="82" stroke="white" stroke-width="5" stroke-linecap="square"/>
+          <line x1="280" y1="82" x2="312" y2="82" stroke="white" stroke-width="5" stroke-linecap="square"/>
+          <line x1="330" y1="34" x2="330" y2="82" stroke="white" stroke-width="5" stroke-linecap="square"/>
+          <circle cx="330" cy="58" r="5.5" fill="#10B981"/>
+          <line x1="348" y1="34" x2="348" y2="70" stroke="white" stroke-width="5" stroke-linecap="square"/>
+          <path d="M348,70 Q348,84 364,84 Q380,84 380,70" fill="none" stroke="white" stroke-width="5" stroke-linecap="square"/>
+          <line x1="380" y1="70" x2="380" y2="34" stroke="white" stroke-width="5" stroke-linecap="square"/>
+          <path d="M428,44 Q428,34 420,34 L404,34 Q396,34 396,44 Q396,58 404,58 L420,58 Q428,58 428,72 Q428,82 420,82 L404,82 Q396,82 396,72" fill="none" stroke="white" stroke-width="5" stroke-linecap="square" stroke-linejoin="round"/>
+        </svg>
+      </div>
+      <p class="footer-copy">COPYRIGHT &copy; ALIUS CORPORATION. ALL RIGHTS RESERVED.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
